@@ -1,0 +1,280 @@
+.slider{
+  /* padding: 20px; */
+  width: 1270px;
+  height: 600px;
+  position: relative;
+  /* display: flex; */
+  
+
+  /* background-color: white; */
+}
+
+.slider img{
+ width: 1263px;
+ height: 600px;
+ position: relative;
+
+
+}
+
+.walltext{
+z-index: 2;
+position: absolute;
+background-color: transparent;
+color: rgb(230, 225, 225);
+font-family: candara;
+font-style: italic;
+font-size: 70px;
+margin: 70px 80px;
+}
+
+
+.benefits{
+  width: auto;
+  height: 900px;
+  background-color: #b6d2f4;
+}
+
+.benefitstitle{
+    font-family: candara;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    background-color: #b6d2f4;
+    font-weight: 300px;
+    margin-bottom: 15px;
+}
+
+.benefitsinfo{
+  margin: 0 auto;
+  width: 1100px;
+  height: 800px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.left img{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    left: 15px;
+  position: absolute;
+
+
+}
+
+.right img{
+  width: 100px;
+  height: 100px;
+  right: 15px;
+  margin: 15px;
+  /* text-align: right; */
+  display: flex;
+  position: absolute;
+}
+
+.left , .right{
+  width: 1000px;
+  height: 130px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.caption1{
+  width: 750px;
+  height: 50px;
+  position: absolute;
+  left: 150px;
+  margin: 40px 0px;
+  font-size: 40px;
+  font-family: candara;
+  color: white;
+  font-style: italic;
+}
+
+.caption2{
+  width: 680px;
+  height: 50px;
+  position: absolute;
+  left: 290px;
+  margin: 40px 0px;
+  font-size: 40px;
+  font-family: candara;
+  color: white;
+  font-style: italic;
+}
+
+.h2,.titleacc,.content,span,p{
+  background-color: bisque;
+
+}
+
+
+.faqtitle{
+ width: 400px;
+ height: 60px;
+ font-size: 40px;
+ color: white;
+ margin: 30px 30px 0px 50px;
+}
+.FAQ{
+  display: flex;
+  width: 1000px;
+  height: 710px;
+  margin: 0 auto;
+  justify-content: center;
+  /* background-color: #b6d2f4; */
+}
+
+.accordian{
+  width: 800px;
+  margin-top: 20px;
+  /* background-color: bisque; */
+
+}
+
+.item{
+  width: 900px;
+  margin-bottom: 10px;
+  background-color:rgb(199, 227, 252);
+  padding: 0px 20px;
+  border-radius: 20px;
+  /* height: 100px; */
+}
+
+.titleacc{
+  display: flex;
+  justify-content: space-between;
+  width: 830px;
+  align-items: center;
+  cursor: pointer;
+  font-family: candara;
+  font-size: 20px;
+  background-color:rgb(199, 227, 252);
+
+}
+
+.content{
+  max-height: 0;
+  overflow: hidden;
+  transition: height 5s ease-in;
+  font-size: 20px;
+  background-color:rgb(199, 227, 252);
+
+}
+.content.show{
+  height: 180px;
+  max-height: 400px;
+  transition: 2s ease-out;
+  font-style: italic;
+
+
+}
+
+.titleacc span{
+  font-size: 30px;
+  background-color:rgb(199, 227, 252);
+  
+}
+
+.footer1{
+  display: flex;
+  flex-direction: row;
+  width: 1263px;
+  height: 250px;
+  margin: 0px auto;
+  background-color: #24262b;
+  padding: 20px 60px;
+  justify-content: space-around;
+  position: absolute;
+  bottom: -2412px;
+}
+
+.end{
+  width: 280px;
+  height: 250px;
+  background-color: transparent;
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.endline{
+  width: 150px;
+  border-bottom: 5px solid rgb(108, 108, 223) ;
+  background-color: #24262b;
+     
+}
+
+.endlist{
+  line-height: 50px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+  background-color: #24262b;
+  font-family: candara;color: rgb(175, 175, 175);
+
+}
+
+.endlist li,ul{
+  list-style: none;
+  background-color: #24262b;         
+}
+
+.endlist li:hover{
+  color: white;
+  cursor: pointer;
+
+}
+
+.contact{
+  width: 350px;
+  height: 80px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #24262b;         
+
+
+}
+.contactin{
+  width: 100px;
+  height: 60px;
+  background-color: #24262b;         
+
+}
+
+.contactin img{
+  width: 60px;
+  height: 60px;
+  background-color: #24262b;         
+
+}
+
+.contactin img:hover{
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.root span,sup{
+  background-color: #24262b;  
+  color: rgb(111, 111, 109);      
+  font-size: 15px; 
+  display: flex;
+  justify-content: center;
+
+}
+
+.root{
+  width: 1350px;
+  position: absolute;
+  bottom: -2428px;
+  background-color: #24262b;  
+  color: rgb(111, 111, 109);      
+  font-size: 15px; 
+  display: flex;
+  justify-content: center;
+
+}
